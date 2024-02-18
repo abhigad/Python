@@ -1,0 +1,30 @@
+del /F /S /Q /A .git
+
+dir /a
+
+git checkout -b my-branch-name
+
+git pull
+
+Run this command to switch to the branch:
+git checkout --track origin/my-branch-name
+
+git push -- upload changes
+
+
+git ls-files --modified
+
+git add .\Plugin.py
+
+====
+Step by Step :
+
+PS C:\abhi\Python> git ls-files --modified
+ git add .\Plugin.py
+PS C:\abhi\Python> git ls-files --modified
+
+git -commit -a //comment
+wq
+PS C:\abhi\Python> git push //push to cloud
+
+
