@@ -27,4 +27,7 @@ git -commit -a //comment
 wq
 PS C:\abhi\Python> git push //push to cloud
 
-
+git add *.txt
+git -commit -a 
+wq
+PS C:\abhi\Python> git push //push to cloud
