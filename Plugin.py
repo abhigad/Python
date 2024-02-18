@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 
+# comment to test the git checkin 
+
 class Plugin(ABC):
     @abstractmethod
     def display_content(self, content):
